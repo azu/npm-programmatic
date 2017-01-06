@@ -6,6 +6,10 @@ Every function returns a Bluebird promise.
 CWD refers to current working directory, allowing you to ensure the command executes in a certain folder in the filesystem.
 If output is set, the output of npm will be shown in the console.
 
+## Installation
+
+    npm install @azu/npm-programmatic
+
 ## Installation of Packages
 
 ``` 
@@ -18,7 +22,7 @@ If output is set, the output of npm will be shown in the console.
 
 ### Example
 ``` 
-    var npm = require('npm-programmatic');
+    var npm = require('@azu/npm-programmatic');
     npm.install(['left-pad'], {
         cwd:'/path/to/my/project',
         save:true
@@ -43,7 +47,7 @@ If output is set, the output of npm will be shown in the console.
 
 ### Example
 ``` 
-    var npm = require('npm-programmatic');
+    var npm = require('@azu/npm-programmatic');
     npm.install(['left-pad'], {
         cwd:'/path/to/my/project',
         save:true
@@ -68,7 +72,7 @@ If output is set, the output of npm will be shown in the console.
 
 ### Example
 ``` 
-    var npm = require('npm-programmatic');
+    var npm = require('@azu/npm-programmatic');
     npm.list('/path/to/project')
     .then(function(arrayOfPackages){
         console.log(arrayOfPackages);
