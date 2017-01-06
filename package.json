@@ -1,6 +1,6 @@
 {
   "name": "@azu/npm-programmatic",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Use NPM commands programmatically",
   "main": "index.js",
   "scripts": {
