@@ -20,13 +20,5 @@
     "url": "https://github.com/azu/npm-programmatic/issues"
   },
   "homepage": "https://github.com/azu/npm-programmatic#readme",
-  "devDependencies": {
-    "bluebird": "^3.4.7",
-    "mocha": "^2.5.3",
-    "should": "^9.0.2"
-  },
-  "dependencies": {
-    "bluebird": "^3.4.7",
-    "npm": "^4.0.5"
-  }
+  "dependencies": {}
 }
